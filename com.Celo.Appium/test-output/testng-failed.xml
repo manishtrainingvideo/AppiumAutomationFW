@@ -5,7 +5,8 @@
     <classes>
       <class name="RegressionTest.CeloTest">
         <methods>
-          <include name="run"/>
+          <include name="libratyModule"/>
+          <include name="capabilities"/>
         </methods>
       </class> <!-- RegressionTest.CeloTest -->
     </classes>
