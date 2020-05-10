@@ -1,15 +1,20 @@
 package RegressionTest;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import pageObjects.Library;
 import pageObjects.MoreModule;
+import utility.CaptureScreenshot;
 import utility.CeloBase;
 import utility.ScrollFeature;
 
@@ -36,6 +41,7 @@ public class CeloTest extends CeloBase {
 	public void libratyModule() throws MalformedURLException, InterruptedException{
 		
 		Library lb= new Library(driver);
+		CaptureScreenshot cs= new CaptureScreenshot(driver);
 		
 		Thread.sleep(3000);		
 		lb.libraryModuleBtn.click();
@@ -55,10 +61,7 @@ public class CeloTest extends CeloBase {
 		//driver.navigate().back();
 		Thread.sleep(2000);
 		
-	}
+		cs.takeScreenshot();
+}	
 	
-	
-	
-	
-
 }
