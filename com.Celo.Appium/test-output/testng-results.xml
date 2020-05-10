@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81163" started-at="2020-05-10T06:03:51Z" finished-at="2020-05-10T06:05:12Z">
+  <suite name="Default suite" duration-ms="98302" started-at="2020-05-10T13:37:35Z" finished-at="2020-05-10T13:39:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81163" started-at="2020-05-10T06:03:51Z" finished-at="2020-05-10T06:05:12Z">
+    <test name="Default test" duration-ms="98302" started-at="2020-05-10T13:37:35Z" finished-at="2020-05-10T13:39:13Z">
       <class name="RegressionTest.CeloTest">
-        <test-method status="PASS" signature="capabilities()[pri:0, instance:RegressionTest.CeloTest@3108bc]" name="capabilities" is-config="true" duration-ms="61045" started-at="2020-05-10T11:33:51Z" finished-at="2020-05-10T11:34:52Z">
+        <test-method status="PASS" signature="capabilities()[pri:0, instance:RegressionTest.CeloTest@3108bc]" name="capabilities" is-config="true" duration-ms="78828" started-at="2020-05-10T19:07:35Z" finished-at="2020-05-10T19:08:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capabilities -->
-        <test-method status="PASS" signature="libratyModule()[pri:0, instance:RegressionTest.CeloTest@3108bc]" name="libratyModule" duration-ms="20083" started-at="2020-05-10T11:34:52Z" finished-at="2020-05-10T11:35:12Z">
+        <test-method status="PASS" signature="capturePhotoUsingCamera()[pri:0, instance:RegressionTest.CeloTest@3108bc]" name="capturePhotoUsingCamera" duration-ms="19440" started-at="2020-05-10T19:08:54Z" finished-at="2020-05-10T19:09:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- libratyModule -->
+        </test-method> <!-- capturePhotoUsingCamera -->
       </class> <!-- RegressionTest.CeloTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

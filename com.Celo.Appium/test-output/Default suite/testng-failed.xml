@@ -5,7 +5,7 @@
     <classes>
       <class name="RegressionTest.CeloTest">
         <methods>
-          <include name="libratyModule"/>
+          <include name="capturePhotoUsingCamera"/>
           <include name="capabilities"/>
         </methods>
       </class> <!-- RegressionTest.CeloTest -->
